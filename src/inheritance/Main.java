@@ -19,7 +19,17 @@ public class Main {
 		sm1.pnum = "010-3330-2733";
 		sm1.salary = 3000;
 		
-		System.out.println(st1);
-		System.out.println(sm1);
+//		System.out.println(st1);
+//		System.out.println(sm1);
+
+		//Override
+//		st1.getInfo();
+//		sm1.getInfo();
+
+		st1.setGrade(4);
+		
+		//Overloading
+		st1.getInfo("================================");
+		sm1.getInfo("================================");
 	}
 }
